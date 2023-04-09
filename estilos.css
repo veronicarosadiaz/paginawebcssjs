@@ -1,0 +1,174 @@
+body {
+    background-image:url('IMG/streetlight.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+header{ 
+height: 200px;
+width: 100%;
+font-family: 'Calibri'; 
+float: left;
+padding: 30px 30px 30px 30px;
+font-size: 20px;
+color: rgba(207, 193, 193, 0.596);
+font-weight: lighter;
+display: flex;
+
+}
+
+section {
+font-family: 'Calibri';
+font-weight: bolder;
+font-size: 80px;
+float: left;
+color: rgb(207, 200, 200);
+padding: 30px 30px 30px 30px;
+}
+
+.aside {
+    margin-top: 240px;
+    margin-right: 50px;
+    float: right; 
+    
+}
+
+.aside .ul{
+    
+    margin-left: 50px;
+    font-family: 'Calibri';
+    font-size: 25px;
+    flex-flow: row wrap;
+    
+    color: rgb(207, 200, 200);
+    list-style-type: none;
+    padding: 7px 10px 7px 10px;
+}
+
+.li { 
+padding: 7px 10px 7px 10px;
+
+}
+
+.li a {
+text-decoration: none;
+color:rgb(207, 200, 200);
+
+}
+
+.li a:hover {
+    background: rgba(35, 67, 73, 0.603);
+    text-decoration: none;
+    color:rgb(207, 200, 200);
+    padding: 1;
+    border-radius: 10px;
+}
+
+.aside .svg { 
+    
+    fill: white;
+    height: 3em;
+    width: 3em;
+    
+} 
+
+.aside .button { background-color: transparent;
+    border: none;
+    float: right;
+}
+
+article {
+margin-left: 10px;
+font-family: 'Calibri';
+font-size: 17px;
+color: rgba(243, 235, 235, 0.596);
+font-weight: lighter;
+text-align: left; 
+padding-top: 15px;
+padding-bottom: 15px;
+
+}
+
+article a {
+    text-decoration: none;
+
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: rgb(207, 200, 200);
+    background-color: rgba(35, 67, 73, 0.603);
+    border-radius: 10px; 
+    padding: 1px 4px 1px 4px;
+
+
+}
+
+article img {
+    height: 150px;
+    width: 150px;
+    padding: 15px 15px 15px 15px;
+}
+
+article img a:hover {
+    text-decoration: none;
+
+}
+
+footer {
+    margin-left: 50px;
+    
+    text-decoration: none;
+    clear: both; 
+}
+
+footer a {
+clear: both;
+
+text-decoration: none;
+font-family: 'Calibri';
+font-weight: bold;
+font-size: 22px;
+color: rgb(207, 200, 200);
+}
+
+textarea { 
+background-color:rgb(219, 214, 214);
+font-family: inherit;
+font-size: 14px;
+}
+
+button.formulario {
+font-family: inherit;
+font-size: 14px;
+}
+
+header p {
+    margin-left: 1300px;
+    float: right;
+font-family: 'Calibri';
+font-size: 15px;
+color:rgb(207, 200, 200);
+text-align: left;
+
+}
+
+@media screen {
+    .aside .ul {
+        
+        /*display:none;*/
+        opacity: 0%;
+        transition: all .5s ease;
+    }
+    .aside .ul.activo {
+        /*display:block;*/
+        opacity: 100%;
+    }
+    
+    .aside .button {cursor:pointer;
+    
+    }
+    
+
+
+
+}
